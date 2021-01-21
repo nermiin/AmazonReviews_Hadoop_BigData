@@ -1,21 +1,4 @@
-# AmazonReviews_Hadoop_BigData
-## BİLGİSAYAR VE BİLİŞİM BİLİMLERİ FAKÜLTESİ
-
-## BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ
-
-# BÜYÜK VERİYE GİRİŞ
-
-# Proje Ödevi
-
-# AMAZON MÜŞTERİ YORUMLARININ
-
-# ANALİZİ
-
-## ÖĞRENCİ ADI : NERMİN KAYA
-
-## ÖĞRENCİ No : G
-
-## DERS GRUBU : 2 - A
+# AMAZON MÜŞTERİ YORUMLARININ ANALİZİ
 
 
 ## İçerik
