@@ -19,7 +19,7 @@
    - 6. Ürünün yorumları tarihe göre bölümlendirilmiş tüm kayıtları bulmak
    - 7. Ürünleri yıldız değerlendirmelerine göre kullanıcıya önermek
    - 8. Her ürün için tarihe göre gruplandırılmış yorumların sayısını bulmak
-- KAYNAKÇA
+
 
 
 ## GİRİŞ
@@ -34,9 +34,10 @@ bilgilendirici bir sonuç üretilmiştir. Ürün olarak kamera seçildiğine ra�
 
 ### Veri Setinin Linki
 
-Veri setine bu linkten indirebilir Amazon Camera Reviews.
+Veri seti bu linkten indirebilir Amazon Camera Reviews.
+[Amazon Camera Reviews](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Camera_v1_00.tsv.gz "Amazon Camera Reviews")
 
-Ayrıca bu linkten de erişim sağlanabilir.
+Ayrıca [bu linkten](https://s3.amazonaws.com/amazon-reviews-pds/readme.html ) de erişim sağlanabilir.
 
 ### Verilere Giriş
 
@@ -601,31 +602,6 @@ store order_by_data INTO '/output';
 pig /home/cloudera/workspace/AmazonAnalysis/src/sau/pig/DailyReviewsCount.pig
 
 **Çıktı** :
-
-
-## KAYNAKÇA
-
-[1] P. Vijay and B. Keshwani, “Emergence of Big Data with Hadoop : A Review,” IOSR Journal of
-
-```
-Engineering (IOSRJEN), vol. 06, no. 03, pp. 50–54, 2016.
-```
-[2] B. Saraladevi, N. Pazhaniraja, P. V. Paul, M. S. Basha and P. Dhavachelvan, “Big Data and Hadoop-A
-
-```
-Study in Security Perspective,” Procedia Computer Science, no. 50, pp. 596–601, 2015.
-```
-[3] “Configuring Encrypted Transport for HDFS,” Cloudera Inc, 2020. [Online]. Available:
-
-```
-https://docs.cloudera.com/documentation/enterprise/latest/topics/cm_sg_hdfs_encrypt_transport.
-html. [Accessed 1 July 2020].
-```
-[4] https://hadoop.apache.org/.
-
-[5] https://en.wikipedia.org/wiki/MapReduce.
-
-[6] https://mahout.apache.org/.
 
 #### THE END
 
