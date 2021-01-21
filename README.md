@@ -24,13 +24,11 @@
 
 ## GİRİŞ
 
-Bu çalışmada kapsamına Amazon sitesi analizi, büyük veri analizi esas alarak ve Hadoop mimarisi, Mahout ve
+Bu çalışmada kapsamına Amazon sitesi analizi, büyük veri analizi esas alarak ve Hadoop mimarisi, Mahout ve Pig kullanarak gerçekleştirilmiş. 
 
-Pig kullanarak gerçekleştirilmiş. Amazon sitesindeki bulunan kamera ürününe ait yorumların incelenerek
+Amazon sitesindeki bulunan kamera ürününe ait yorumların incelenerek bilgilendirici bir sonuç üretilmiştir. Ürün olarak kamera seçildiğine rağmen, Amazon 
 
-bilgilendirici bir sonuç üretilmiştir. Ürün olarak kamera seçildiğine rağmen, Amazon sitesindeki herhangi bir
-
-ürün için geçerli olabilir, veri seti bulmak şartıyla.
+sitesindeki herhangi bir ürün için geçerli olabilir, veri seti bulmak şartıyla.
 
 ### Veri Setinin Linki
 
@@ -139,13 +137,10 @@ sau.AverageProductRating.ProductAverageRatingMain /input /output/AverageProductR
 
 Çıktı: Product Count, ProductID.
 
-Metot :
+Metot : Secondry Sorting. WritableComparator sınıfını genişleterek ilk 10 ürünü azalan sırada alacak şekilde
+gerçekleştirilmiştir. 
 
-```
- Secondry Sorting. WritableComparator sınıfını genişleterek ilk 10 ürünü azalan sırada alacak şekilde
-gerçekleştirilmiştir. TopN filtreleme modeli, ilk 10 ürünü bulmak için kullanılır.
- Filtreme Patern TopN
-```
+TopN filtreleme modeli, ilk 10 ürünü bulmak için kullanılır.Filtreme Patern TopN
 
 **Komut** :
 
@@ -203,7 +198,6 @@ sudo hadoop jar /home/cloudera/Desktop/bigdata/out/AmazonAnalysis.jar sau.YearPa
 
 
 
-**1. bölümün çıktı dosyasının başı**
 
 ### 7. Ürünleri yıldız değerlendirmelerine göre kullanıcıya önermek
 
